@@ -1,0 +1,11 @@
+# dependencies  npm包文件
+/node_modules
+
+# production  打包文件
+/dist/*
+
+# misc 
+.DS_Store
+
+#npm log
+npm-debug.log*

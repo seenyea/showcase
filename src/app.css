@@ -1,0 +1,83 @@
+@import '~ant-css/antd.css';
+
+body,
+html {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.layout {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f0f2f5;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 64px;
+    right: 0px;
+    overflow: hidden;
+    background-color: #001529;
+    line-height: 64px;
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+}
+
+.locale{
+    text-align: right;
+    font-size: 16px;
+}
+
+.content {
+    position: absolute;
+    top: 64px;
+    bottom: 64px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.wrapper{
+    margin: 16px 50px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    height: 64px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    text-align: center;
+    color: #535356;
+    line-height: 64px;
+    font-weight: 500;
+}
+
+.table-tools .ant-col{
+    padding: 0 0 8px 0;
+}
+
+.table-tools button{
+    background-color: transparent;
+}
+
+.button-right{
+    text-align: right;
+}
+
+.button-right button:first-child{
+    margin-right: 16px;
+}
