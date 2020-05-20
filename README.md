@@ -61,3 +61,5 @@ npm run dev
 ```
 npm run build
 ```
+
+# Thank for ***Vmware*** company pre-check, which let I begin to hold this project
