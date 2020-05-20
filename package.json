@@ -1,11 +1,11 @@
 {
-  "name": "Show Case",
+  "name": "showcase",
   "version": "1.0.0",
   "description": "Show Case is front-end 'All-in-one' solution.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./build/dev.js --mode development --open --hot",
-    "build": "rm -rf ./dist/* && webpack --config ./build/online.js --mode production --progress --colors"
+    "build": "rm -rf ./dist && webpack --config ./build/online.js --mode production --progress --colors"
   },
   "repository": {
     "type": "git",

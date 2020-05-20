@@ -61,5 +61,3 @@ npm run dev
 ```
 npm run build
 ```
-
-# common error
