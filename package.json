@@ -19,7 +19,7 @@
   "homepage": "https://github.com/seenyea/showcase#readme",
   "dependencies": {
     "antd": "^4.2.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
